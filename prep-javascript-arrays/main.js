@@ -8,13 +8,13 @@ var language = [
 ];
 console.log('languages array', language);
 
-var firstElement = 'html';
+var firstElement = language[0];
 console.log('the first element of the array is', firstElement);
 
-var thirdElement = 'javascript';
+var thirdElement = language[2];
 console.log('the 3rd element of the array is', thirdElement);
 
-var length = '6';
+var length = language.length;
 console.log('The length of the array is', length);
 
 var lastElement = language[language.length - 1];
